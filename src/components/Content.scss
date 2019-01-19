@@ -1,0 +1,45 @@
+h2.subheading {
+    font-size: 16px;
+    width: 30rem;
+    margin: auto;
+}
+h2.tHeader {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    width: auto;
+    overflow-wrap: break-word;
+}
+p.mainParagraph {
+    font-size: 14px;
+    text-align: justify;
+}
+p.tParagraph {
+    font-size: 12px;
+}
+p.lParagraph {
+    text-align: left;
+}
+.list {
+    width: 35rem;
+    margin: auto;
+}
+.table {
+    table {
+        width: 70%;
+        margin: auto;
+    }
+    table, th, td {
+        border-style: solid;
+        border-width: 1px;
+        border-collapse: collapse;
+        border-color: hsl(0, 0%, 50%);
+        padding: 2px;
+    }
+    th { 
+        background-color: hsl(0, 0%, 5%);
+    }
+    td { 
+        background-color: hsl(0, 0%, 90%);
+    }
+}
